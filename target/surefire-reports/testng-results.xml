@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="16" passed="16" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-04-25T14:48:41 IST" name="AdminPanelAutomationSuite" finished-at="2026-04-25T14:49:52 IST" duration-ms="71232">
+    <groups>
+    </groups>
+    <test started-at="2026-04-25T14:48:41 IST" name="TablesAndAlerts" finished-at="2026-04-25T14:49:10 IST" duration-ms="29247">
+      <class name="com.srm.framework.tests.AlertTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.srm.framework.tests.AlertTests@5d908d47]" started-at="2026-04-25T14:48:54 IST" name="setUp" finished-at="2026-04-25T14:48:55 IST" duration-ms="1048" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="shouldAcceptAlert()[pri:0, instance:com.srm.framework.tests.AlertTests@5d908d47]" started-at="2026-04-25T14:48:55 IST" name="shouldAcceptAlert" description="Accept the JavaScript alert and verify alert text" finished-at="2026-04-25T14:48:59 IST" duration-ms="3174" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldAcceptAlert -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.srm.framework.tests.AlertTests@5d908d47]" started-at="2026-04-25T14:48:59 IST" name="tearDown" finished-at="2026-04-25T14:48:59 IST" duration-ms="210" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.srm.framework.tests.AlertTests@5d908d47]" started-at="2026-04-25T14:48:59 IST" name="setUp" finished-at="2026-04-25T14:49:00 IST" duration-ms="924" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="shouldAcceptConfirm()[pri:0, instance:com.srm.framework.tests.AlertTests@5d908d47]" started-at="2026-04-25T14:49:00 IST" name="shouldAcceptConfirm" description="Accept the JavaScript confirm dialog and verify text" finished-at="2026-04-25T14:49:02 IST" duration-ms="2518" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldAcceptConfirm -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.srm.framework.tests.AlertTests@5d908d47]" started-at="2026-04-25T14:49:02 IST" name="tearDown" finished-at="2026-04-25T14:49:03 IST" duration-ms="275" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.srm.framework.tests.AlertTests@5d908d47]" started-at="2026-04-25T14:49:03 IST" name="setUp" finished-at="2026-04-25T14:49:04 IST" duration-ms="1001" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="shouldDismissConfirm()[pri:0, instance:com.srm.framework.tests.AlertTests@5d908d47]" started-at="2026-04-25T14:49:04 IST" name="shouldDismissConfirm" description="Dismiss the JavaScript confirm dialog and verify text" finished-at="2026-04-25T14:49:06 IST" duration-ms="2533" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldDismissConfirm -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.srm.framework.tests.AlertTests@5d908d47]" started-at="2026-04-25T14:49:06 IST" name="tearDown" finished-at="2026-04-25T14:49:06 IST" duration-ms="242" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.srm.framework.tests.AlertTests@5d908d47]" started-at="2026-04-25T14:49:06 IST" name="setUp" finished-at="2026-04-25T14:49:07 IST" duration-ms="1030" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="shouldSubmitPrompt()[pri:0, instance:com.srm.framework.tests.AlertTests@5d908d47]" started-at="2026-04-25T14:49:07 IST" name="shouldSubmitPrompt" description="Type into the JavaScript prompt and verify prompt workflow" finished-at="2026-04-25T14:49:10 IST" duration-ms="2843" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldSubmitPrompt -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.srm.framework.tests.AlertTests@5d908d47]" started-at="2026-04-25T14:49:10 IST" name="tearDown" finished-at="2026-04-25T14:49:10 IST" duration-ms="223" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.srm.framework.tests.AlertTests -->
+      <class name="com.srm.framework.tests.TableTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.srm.framework.tests.TableTests@660acfb]" started-at="2026-04-25T14:48:41 IST" name="setUp" finished-at="2026-04-25T14:48:46 IST" duration-ms="4470" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="shouldDisplayStaticTableHeaders()[pri:0, instance:com.srm.framework.tests.TableTests@660acfb]" started-at="2026-04-25T14:48:46 IST" name="shouldDisplayStaticTableHeaders" description="Verify table headers are present on the static table page" finished-at="2026-04-25T14:48:49 IST" duration-ms="3158" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldDisplayStaticTableHeaders -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.srm.framework.tests.TableTests@660acfb]" started-at="2026-04-25T14:48:49 IST" name="tearDown" finished-at="2026-04-25T14:48:49 IST" duration-ms="343" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.srm.framework.tests.TableTests@660acfb]" started-at="2026-04-25T14:48:49 IST" name="setUp" finished-at="2026-04-25T14:48:51 IST" duration-ms="1725" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="shouldRefreshDynamicTableRows()[pri:0, instance:com.srm.framework.tests.TableTests@660acfb]" started-at="2026-04-25T14:48:51 IST" name="shouldRefreshDynamicTableRows" description="Verify row data changes after refreshing the dynamic table data" finished-at="2026-04-25T14:48:54 IST" duration-ms="3186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldRefreshDynamicTableRows -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.srm.framework.tests.TableTests@660acfb]" started-at="2026-04-25T14:48:54 IST" name="tearDown" finished-at="2026-04-25T14:48:54 IST" duration-ms="234" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.srm.framework.tests.TableTests -->
+    </test> <!-- TablesAndAlerts -->
+    <test started-at="2026-04-25T14:48:41 IST" name="HomeAndForms" finished-at="2026-04-25T14:49:26 IST" duration-ms="44419">
+      <class name="com.srm.framework.tests.HomeTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.srm.framework.tests.HomeTest@5c80cf32]" started-at="2026-04-25T14:48:41 IST" name="setUp" finished-at="2026-04-25T14:48:46 IST" duration-ms="4469" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyHomePage()[pri:0, instance:com.srm.framework.tests.HomeTest@5c80cf32]" started-at="2026-04-25T14:48:46 IST" name="verifyHomePage" description="Verify the AUT landing page is reachable and behaves like the framework home dashboard" finished-at="2026-04-25T14:48:49 IST" duration-ms="3323" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.srm.framework.tests.HomeTest@5c80cf32]" started-at="2026-04-25T14:48:49 IST" name="tearDown" finished-at="2026-04-25T14:48:49 IST" duration-ms="344" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.srm.framework.tests.HomeTest -->
+      <class name="com.srm.framework.tests.FormTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.srm.framework.tests.FormTests@d554c5f]" started-at="2026-04-25T14:48:49 IST" name="setUp" finished-at="2026-04-25T14:48:51 IST" duration-ms="1626" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="shouldHandleEmptyHtmlFormSubmission()[pri:0, instance:com.srm.framework.tests.FormTests@d554c5f]" started-at="2026-04-25T14:48:51 IST" name="shouldHandleEmptyHtmlFormSubmission" description="Submit the HTML form with empty values and verify the response still renders" finished-at="2026-04-25T14:48:55 IST" duration-ms="4357" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldHandleEmptyHtmlFormSubmission -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.srm.framework.tests.FormTests@d554c5f]" started-at="2026-04-25T14:48:55 IST" name="tearDown" finished-at="2026-04-25T14:48:56 IST" duration-ms="338" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.srm.framework.tests.FormTests@d554c5f]" started-at="2026-04-25T14:48:56 IST" name="setUp" finished-at="2026-04-25T14:48:57 IST" duration-ms="946" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="shouldSubmitHtmlFormWithValidData(com.srm.framework.model.FormData)[pri:0, instance:com.srm.framework.tests.FormTests@d554c5f]" started-at="2026-04-25T14:48:57 IST" name="shouldSubmitHtmlFormWithValidData" description="Submit the HTML form using multiple data sets" data-provider="htmlFormData" finished-at="2026-04-25T14:49:07 IST" duration-ms="9725" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.srm.framework.model.FormData@6c1b05b4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldSubmitHtmlFormWithValidData -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.srm.framework.tests.FormTests@d554c5f]" started-at="2026-04-25T14:49:07 IST" name="tearDown" finished-at="2026-04-25T14:49:07 IST" duration-ms="514" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.srm.framework.tests.FormTests@d554c5f]" started-at="2026-04-25T14:49:07 IST" name="setUp" finished-at="2026-04-25T14:49:09 IST" duration-ms="1127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="shouldSubmitHtmlFormWithValidData(com.srm.framework.model.FormData)[pri:0, instance:com.srm.framework.tests.FormTests@d554c5f]" started-at="2026-04-25T14:49:09 IST" name="shouldSubmitHtmlFormWithValidData" description="Submit the HTML form using multiple data sets" data-provider="htmlFormData" finished-at="2026-04-25T14:49:18 IST" duration-ms="9901" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.srm.framework.model.FormData@4832afc9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldSubmitHtmlFormWithValidData -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.srm.framework.tests.FormTests@d554c5f]" started-at="2026-04-25T14:49:18 IST" name="tearDown" finished-at="2026-04-25T14:49:19 IST" duration-ms="336" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.srm.framework.tests.FormTests@d554c5f]" started-at="2026-04-25T14:49:19 IST" name="setUp" finished-at="2026-04-25T14:49:20 IST" duration-ms="1416" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="shouldValidateBoundaryValuesOnNumberForm()[pri:0, instance:com.srm.framework.tests.FormTests@d554c5f]" started-at="2026-04-25T14:49:20 IST" name="shouldValidateBoundaryValuesOnNumberForm" description="Apply number field validations and verify boundary values are handled" finished-at="2026-04-25T14:49:25 IST" duration-ms="5066" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldValidateBoundaryValuesOnNumberForm -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.srm.framework.tests.FormTests@d554c5f]" started-at="2026-04-25T14:49:25 IST" name="tearDown" finished-at="2026-04-25T14:49:26 IST" duration-ms="278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.srm.framework.tests.FormTests -->
+    </test> <!-- HomeAndForms -->
+    <test started-at="2026-04-25T14:49:11 IST" name="DynamicAndFrames" finished-at="2026-04-25T14:49:52 IST" duration-ms="41443">
+      <class name="com.srm.framework.tests.FrameTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.srm.framework.tests.FrameTests@1224144a]" started-at="2026-04-25T14:49:24 IST" name="setUp" finished-at="2026-04-25T14:49:25 IST" duration-ms="942" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="shouldAccessIframeContent()[pri:0, instance:com.srm.framework.tests.FrameTests@1224144a]" started-at="2026-04-25T14:49:25 IST" name="shouldAccessIframeContent" description="Switch into an iframe and verify content is accessible" finished-at="2026-04-25T14:49:43 IST" duration-ms="18440" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldAccessIframeContent -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.srm.framework.tests.FrameTests@1224144a]" started-at="2026-04-25T14:49:43 IST" name="tearDown" finished-at="2026-04-25T14:49:43 IST" duration-ms="269" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.srm.framework.tests.FrameTests@1224144a]" started-at="2026-04-25T14:49:43 IST" name="setUp" finished-at="2026-04-25T14:49:44 IST" duration-ms="912" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="shouldAccessNestedFrameContent()[pri:0, instance:com.srm.framework.tests.FrameTests@1224144a]" started-at="2026-04-25T14:49:44 IST" name="shouldAccessNestedFrameContent" description="Switch into a frame page and verify nested frame content is accessible" finished-at="2026-04-25T14:49:48 IST" duration-ms="4054" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldAccessNestedFrameContent -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.srm.framework.tests.FrameTests@1224144a]" started-at="2026-04-25T14:49:48 IST" name="tearDown" finished-at="2026-04-25T14:49:48 IST" duration-ms="241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.srm.framework.tests.FrameTests@1224144a]" started-at="2026-04-25T14:49:48 IST" name="setUp" finished-at="2026-04-25T14:49:49 IST" duration-ms="1038" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="shouldReturnToDefaultContent()[pri:0, instance:com.srm.framework.tests.FrameTests@1224144a]" started-at="2026-04-25T14:49:49 IST" name="shouldReturnToDefaultContent" description="Return to the default content and verify the main page is accessible again" finished-at="2026-04-25T14:49:52 IST" duration-ms="2682" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldReturnToDefaultContent -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.srm.framework.tests.FrameTests@1224144a]" started-at="2026-04-25T14:49:52 IST" name="tearDown" finished-at="2026-04-25T14:49:52 IST" duration-ms="211" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.srm.framework.tests.FrameTests -->
+      <class name="com.srm.framework.tests.DynamicTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.srm.framework.tests.DynamicTests@f58853c]" started-at="2026-04-25T14:49:11 IST" name="setUp" finished-at="2026-04-25T14:49:12 IST" duration-ms="1134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="shouldFollowRedirect()[pri:0, instance:com.srm.framework.tests.DynamicTests@f58853c]" started-at="2026-04-25T14:49:12 IST" name="shouldFollowRedirect" description="Trigger the JavaScript redirect and verify the destination URL changes" finished-at="2026-04-25T14:49:18 IST" duration-ms="6168" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldFollowRedirect -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.srm.framework.tests.DynamicTests@f58853c]" started-at="2026-04-25T14:49:18 IST" name="tearDown" finished-at="2026-04-25T14:49:19 IST" duration-ms="286" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.srm.framework.tests.DynamicTests@f58853c]" started-at="2026-04-25T14:49:19 IST" name="setUp" finished-at="2026-04-25T14:49:20 IST" duration-ms="1322" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="shouldInteractWithDynamicButton()[pri:0, instance:com.srm.framework.tests.DynamicTests@f58853c]" started-at="2026-04-25T14:49:20 IST" name="shouldInteractWithDynamicButton" description="Interact with a dynamically refreshed button and verify output becomes visible" finished-at="2026-04-25T14:49:23 IST" duration-ms="3530" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldInteractWithDynamicButton -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.srm.framework.tests.DynamicTests@f58853c]" started-at="2026-04-25T14:49:23 IST" name="tearDown" finished-at="2026-04-25T14:49:24 IST" duration-ms="205" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.srm.framework.tests.DynamicTests -->
+    </test> <!-- DynamicAndFrames -->
+  </suite> <!-- AdminPanelAutomationSuite -->
+</testng-results>

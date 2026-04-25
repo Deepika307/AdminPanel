@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [AdminPanelAutomationSuite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="com.srm.framework.listeners.TestListener"/>
+  </listeners>
+  <test thread-count="2" parallel="tests" name="TablesAndAlerts(failed)" verbose="0">
+    <classes>
+      <class name="com.srm.framework.tests.TableTests">
+        <methods>
+          <include name="setUp"/>
+          <include name="shouldRefreshDynamicTableRows"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.srm.framework.tests.TableTests -->
+    </classes>
+  </test> <!-- TablesAndAlerts(failed) -->
+  <test thread-count="2" parallel="tests" name="HomeAndForms(failed)" verbose="0">
+    <classes>
+      <class name="com.srm.framework.tests.FormTests">
+        <methods>
+          <include name="shouldSubmitHtmlFormWithValidData" invocation-numbers="0 1"/>
+          <include name="shouldHandleEmptyHtmlFormSubmission"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.srm.framework.tests.FormTests -->
+    </classes>
+  </test> <!-- HomeAndForms(failed) -->
+</suite> <!-- Failed suite [AdminPanelAutomationSuite] -->

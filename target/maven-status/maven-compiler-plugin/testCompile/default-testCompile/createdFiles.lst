@@ -1,0 +1,6 @@
+com\srm\framework\tests\FormTests.class
+com\srm\framework\tests\AlertTests.class
+com\srm\framework\tests\FrameTests.class
+com\srm\framework\tests\TableTests.class
+com\srm\framework\tests\DynamicTests.class
+com\srm\framework\tests\HomeTest.class
