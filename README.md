@@ -121,9 +121,9 @@ AdminPanel/
 All configuration values are stored in:
 src/test/resources/config.properties
 
-Example:
-browser=chrome\
-baseUrl=https://testpages.eviltester.com/styled/index.html\
+Example:  
+browser=chrome  
+baseUrl=https://testpages.eviltester.com/styled/index.html  
 timeout=10
 
 ## Data-Driven Testing
