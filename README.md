@@ -32,7 +32,7 @@ This application provides multiple components such as forms, tables, alerts, dyn
 * Reusable and modular framework design
 
 ## Project Structure
-
+```
 AdminPanel/
 │
 ├── src/test/java/com/srm/framework/
@@ -73,7 +73,7 @@ AdminPanel/
 ├── testng.xml
 ├── pom.xml
 └── README.md
-
+```
 ## Test Modules Covered
 
 ### 1. Form Interactions
@@ -122,8 +122,8 @@ All configuration values are stored in:
 src/test/resources/config.properties
 
 Example:
-browser=chrome
-baseUrl=https://testpages.eviltester.com/styled/index.html
+browser=chrome\
+baseUrl=https://testpages.eviltester.com/styled/index.html\
 timeout=10
 
 ## Data-Driven Testing
